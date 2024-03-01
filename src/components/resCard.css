@@ -1,0 +1,58 @@
+
+.resturantCard{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+
+
+}
+
+.Rescontainer{
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+
+}
+
+.ratings{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:0px 10px;
+    height: fit-content;
+}
+
+.menu{
+    margin-top: 5%;
+    width: 60%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.menuImage{
+    max-width: 150px;
+    max-height: 96px;
+
+    
+}
+
+.menuImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    
+}
+
+.detail p{
+    font-weight: 6px;
+    text-align: left;
+    color: grey;
+}
